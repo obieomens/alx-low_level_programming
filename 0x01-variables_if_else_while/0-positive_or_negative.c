@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
-#inlude < stdio.h >
+#inlude <stdio.h>
 /**
- * main - function
+ * main - program that prints positive or negetive number
  * Return: always 0
  */
 int main(void)
