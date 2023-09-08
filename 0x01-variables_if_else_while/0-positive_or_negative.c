@@ -18,7 +18,8 @@ else if (n == 0)
 {
 printf("%d is Zero", n);
 }
-else {
+else
+{
 printf("%d is Negative", n);
 }
 printf("\n");
