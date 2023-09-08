@@ -14,6 +14,7 @@ for (n = 48; n <= 57; n++)
 		continue;
 	}
 	putchar(',');
+	putchar(' ');
 }
 putchar('\n');
 return (0);
