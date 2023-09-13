@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - function that checks alphabetic character
+ * @c: check code paremeter
  * Return: 1 or 0
  */
 int _isalpha(int c)
