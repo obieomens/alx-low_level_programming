@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  *print_sign - function that prints sign of a number
- *@n : function paremeter 
- *Return: 1, 0 or -1 
+ *@n: function paremeter
+ *Return: 1, 0 or -1
  */
 int print_sign(int n)
 {
