@@ -2,10 +2,11 @@
 /**
  * print_diagonal - funtion that prints a diagonal
  * @n: input parameter
+ * Return: void
  */
 void print_diagonal(int n)
 {
-	if (n <i= 0)
+	if (n <= 0)
 	{
 		_putchar('\n');
 	}
