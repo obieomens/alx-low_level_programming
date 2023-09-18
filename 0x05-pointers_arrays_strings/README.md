@@ -1,1 +1,4 @@
-0x05-pointers_arrays_strings
+pointers_arrays_strings
+swap
+reset
+etc
