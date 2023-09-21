@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * leet: function that encode a string into "1337"
- * @str: input string to be encoded
- * Return:a pointer to encoded string
+ * leet - function that encods a string
+ * @str: takes an input
+ * Return: lee_str
  */
 char *leet(char *str)
 {
@@ -17,7 +17,7 @@ for (i = 0; leet_map[i]; i++)
 if (*str == leet_map[i])
 {
 *str = leet_code[i];
-break;
+
 }
 }
 }
