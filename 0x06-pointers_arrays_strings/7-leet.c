@@ -12,7 +12,7 @@ char s1[]  = "aAeEoOtTlL";
 char s2[] = "4433007711";
 for (i = 0; str[i] != '\0'; i++)
 {
-for (k = 0; k > 10; k++)
+for (k = 0; k < 10; k++)
 {
 if (str[i] == s1[k])
 {
