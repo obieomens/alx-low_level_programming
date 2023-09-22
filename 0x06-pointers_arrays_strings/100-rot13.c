@@ -1,25 +1,27 @@
 #include "main.h"
 /**
  * rot13 - function that encodes a string
- * @str: input string
+ * @s: input string
  * Return: string
  */
-char *rot13(char *str)
+char *rot13(char *s)
 {
 int i;
-int k;
 char c[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 char d[] = "NOPQRSTUVWZYZABCDDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-	for (i = 0; str[i] != '\0'; i++)
+char *ptr = s;
+while (*s)
+{
+	for (i = 0; i <= 52; i++)
 	{
-		for (k = 0; c[k] != '\0'; k++)
-		{
-			if (str[i] == c[k])
+		
+	if (*s == c[i])
 			{
-				str[i] = d[k];
+				*s = d[i];
 				break;
 			}
 		}
+	s++;
 	}
-	return (str);
+	return (ptr);
 }
