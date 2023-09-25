@@ -21,7 +21,7 @@ for (k = 0; k < size; k++)
 {
 sum2 += a[k * size + (size - 1 - k)];
 }
-printf("% d ", sum1);
+printf("%d, ", sum1);
 	printf("% d\n", sum2);
 }
 
