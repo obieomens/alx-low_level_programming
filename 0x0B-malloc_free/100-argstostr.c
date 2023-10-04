@@ -5,8 +5,7 @@
  * argstostr - Concatenates all the arguments of the program.
  * @ac: The argument count.
  * @av: The argument vector.
- *
- * Return: A pointer to the concatenated string, or NULL on failure.
+ * Return: A pointer to the concatenated string
  */
 char *argstostr(int ac, char **av)
 {
@@ -40,38 +39,3 @@ k++;
 str[k] = '\0';
 return (str);
 }
-
-
-        
-
-    
-    
-    
-        
-          
-
-        
-       
-
-    
-
-    
-
- 
-        
-
-  
-    
-    
-        
-        
-         
-            
-        
-      
-        
-    
-
-
-
-
