@@ -1,23 +1,22 @@
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef MAIN_H
+#define MAIN_H
 /**
- * init_dog - this function stores information about a dog
  * struct dog - Represents information about a dog
- * @name: Pointer to the name of the dog (string)
- * @age: Age of the dog (float)
- * @owner: Pointer to the name of the owner (string)
+ * @name: Pointer to the name of the dog 
+ * @age: Age of the dog 
+ * @owner: Pointer to the name of the owner 
  */
 struct dog
 {
 char *name;
-float age;
+float *age;
 char *owner;
 };
-void init_dog(struct dog *d, char *name, float age, char *owner)
-{
-if (d == NULL)
-d = malloc(sizeof(struct dog));
-d->name = name;
-d->age = age;
-d->owner = owner;
-}
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
+
+#endif
+
+
