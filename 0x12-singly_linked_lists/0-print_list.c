@@ -14,17 +14,16 @@ int i;
 	}
 	for (i = 1; h->next != NULL; i++)
 	{
-		if (h->str == NULL)
-		{
-			printf("[%u] %s\n", h->len, "(nil)");
-		}
-		else
-		{
-			printf("[%u] %s\n", h->len, h->str);
-		}
-		h = h->next;
+	if (h->str == NULL)
+	{
+	printf("[%u] %s\n", h->len, "(nil)");
+	}
+	else
+	{
+	printf("[%u] %s\n", h->len, h->str);
+	}
+	h = h->next;
 	}
 	printf("[%u] %s\n", h->len, "(nil)");
 	return (i);
 }
-
