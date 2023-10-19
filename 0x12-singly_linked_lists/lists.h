@@ -4,13 +4,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include <stddef.h>
 int _putchar(char c);
 /**
  * struct list_s - stringly linked list
  * @str: malloc string
  * @len: length of the string
  * @next: pointer to the node
+ */
 
 
 typedef struct list_s
@@ -21,4 +22,5 @@ typedef struct list_s
 } list_t;
 
 size_t print_list(const list_t *h);
+size_t list_len(const list_t *h);
 #endif
