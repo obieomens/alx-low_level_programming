@@ -23,7 +23,7 @@ char *buffer;
 	{
 	return (0);
 	}
-	buffer = malloc (sizeof(char) * letters);
+	buffer = malloc(sizeof(char) * letters);
 	if (buffer == NULL)
 	return (0);
 	bytes_read = read(file_descriptor, buffer, letters);
